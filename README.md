@@ -1,3 +1,3 @@
 # real-estate-rental
 
-![image](https://user-images.githubusercontent.com/66935004/178806706-ddc99c9d-95cb-43ca-bec5-bedc118967ea.png)
+![image](https://user-images.githubusercontent.com/66935004/178807196-b224daa1-7993-4d4d-b7bc-237b1c17d173.png)
