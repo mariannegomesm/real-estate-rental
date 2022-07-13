@@ -2,8 +2,6 @@ import React from "react";
 
 import Nav from "../../components/Nav";
 
-import "./style.scss";
-
 const RegisterUser = () => {
     return(
         <section className="register-container">

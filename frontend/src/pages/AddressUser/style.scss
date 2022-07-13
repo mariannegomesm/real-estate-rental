@@ -1,0 +1,16 @@
+.address-container{
+    .form-group{
+        display: flex !important;
+        flex-direction: row;
+
+        margin: 0;
+
+        div{
+            width: 50%;
+        }
+
+        div:first-child{
+            margin-right: 0.5rem;
+        }
+    }
+}

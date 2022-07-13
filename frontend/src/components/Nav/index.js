@@ -8,8 +8,8 @@ const Nav = () => {
     const nextTopics = [
         {title: "1", href: ""},
         {title: "2", href: "/register-user"},
-        {title: "3", href: ""},
-        {title: "4", href: ""},
+        {title: "3", href: "/address-user"},
+        {title: "4", href: "/success-signing"},
     ]
 
     const history = useHistory();
@@ -21,8 +21,11 @@ const Nav = () => {
     useEffect(() => {
         nextTopics.map((item, index) => {
             if(item.href == history.location.pathname){
-                const element = document.getElementById(index);
-                element.classList.add("completed");
+
+                for(let i = 1; i <= index; i++){
+                    const element = document.getElementById(i);
+                    element.classList.add("completed");
+                }
 
                 const nextElement = document.getElementById(index + 1);
                 nextElement.classList.add("active");
