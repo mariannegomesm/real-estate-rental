@@ -1,5 +1,6 @@
 import React from "react";
 
+import "./style.scss";
 import Nav from "../../components/Nav";
 
 import { useHistory } from "react-router-dom";
@@ -26,6 +27,10 @@ const RegisterUser = () => {
                 <div>
                     <label>* Senha:</label>
                     <input placeholder="Insira uma senha forte"/>
+                </div>
+                <div>
+                    <label>* Imagem:</label>
+                    <input placeholder="Insira o link de sua foto preferida"/>
                 </div>
                 <button onClick={() => SendTo("/address-user")}>Próximo passo</button>
             </form>
