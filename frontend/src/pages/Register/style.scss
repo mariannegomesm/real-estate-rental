@@ -1,0 +1,118 @@
+.register-container{
+    width: 100%;
+    height: 100vh;
+
+    overflow: hidden;
+
+    .title-container{
+        width: 13%;
+
+        white-space: nowrap;
+
+        margin: 4rem auto 4rem !important;
+    
+        span, h1{
+            margin: 0 auto
+        }
+
+        span{
+            color: var(--color-primary);
+        }
+
+        h1{
+            font-size: 1.2rem;
+        }
+    }
+
+
+    .details-login-container{
+        width: 45%;
+        margin: 0 auto;
+
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+
+        h1{
+            margin-bottom: 0.5rem;
+        }
+
+        p{
+            font-weight: 500;
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+
+            margin-bottom: 2rem;
+            
+            color: var(--color-font);
+        }
+
+        .buttons-container{
+            display: flex;
+
+            margin: 1rem 0;
+
+            button{
+                width: 100%;
+                padding: 1.5rem 1rem 0;
+
+                text-align: center;
+
+                border-radius: 0.5rem;
+                border: 2px solid #f2f3f6;
+
+                background-color: transparent;
+
+                label{
+                    font-weight: 600;
+                    font-size: 0.9rem;
+
+                }
+                
+                p{
+                    font-size: 0.7rem;
+                    letter-spacing: 1px;
+                    
+                    margin-top: 0.5rem !important;
+
+                    color: var(--color-font);
+                }
+            }
+
+
+            button:first-child{
+                margin-right: 0.5rem;
+            }
+
+            button:active, button:focus{
+                border: 2px solid var(--color-primary);
+
+                span{
+                    color: var(--color-primary);
+                }
+            }
+        }
+    }
+
+    .button-next{
+        height: 2.5rem;
+        margin-bottom: 1rem;
+
+        border: 0;
+        border-radius: 0.3rem;
+
+        font-weight: 600;
+        letter-spacing: 1px;
+
+        color: var(--color-white);
+        background-color: var(--color-primary);
+    }
+
+    a{
+        font-weight: 500;
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+
+        color: var(--color-font);
+    }
+}
