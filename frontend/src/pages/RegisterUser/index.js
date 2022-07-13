@@ -2,7 +2,15 @@ import React from "react";
 
 import Nav from "../../components/Nav";
 
+import { useHistory } from "react-router-dom";
+
 const RegisterUser = () => {
+    const history = useHistory();
+    
+    const SendTo = (route) => {
+        history.push(route);
+    }
+
     return(
         <section className="register-container">
             <Nav />
@@ -19,7 +27,7 @@ const RegisterUser = () => {
                     <label>* Senha:</label>
                     <input placeholder="Insira uma senha forte"/>
                 </div>
-                <button>Próximo passo</button>
+                <button onClick={() => SendTo("/address-user")}>Próximo passo</button>
             </form>
         </section>
     )

@@ -3,7 +3,15 @@ import React from "react";
 import "./style.scss";
 import Nav from "../../components/Nav";
 
+import { useHistory } from "react-router-dom";
+
 const AddressUser = () => {
+    const history = useHistory();
+
+    const SendTo = (route) => {
+        history.push(route)
+    }
+
     return(
         <section className="address-container">
             <Nav />
@@ -26,7 +34,7 @@ const AddressUser = () => {
                     <label>* CEP:</label>
                     <input placeholder="Insira seu código postal"/>
                 </div>
-                <button>Próximo passo</button>
+                <button onClick={() => SendTo("/success-signing")}>Próximo passo</button>
             </form>
         </section>
     )

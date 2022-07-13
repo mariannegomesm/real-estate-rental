@@ -1,18 +1,18 @@
 import React, {useEffect, useRef} from 'react';
 
 import "./style.scss";
-
 import Nav from "../../components/Nav";
 
+import { useHistory } from 'react-router-dom';
+
 const SelectAccess = () => {
+    const history = useHistory();
+
     const buttonActive = useRef(false);
 
-    const nextSteps = [
-        { title: "1", href: ""},
-        { title: "2", href: ""},
-        { title: "3", href: ""},
-        { title: "4", href: ""},
-    ];
+    const SendTo = (route) => {
+        history.push(route)
+    }
 
     useEffect(() => {
         buttonActive.current.focus();   
@@ -36,7 +36,7 @@ const SelectAccess = () => {
                         <p>Sua equipe tendo acesso ao controle de seus imóveis</p>
                     </button>
                 </div>
-                <button className="button-next">Próximo passo</button>
+                <button className="button-next" onClick={() => SendTo("/register-user")}>Próximo passo</button>
                 <a>Logar na plataforma</a>
             </div>
         </section>
