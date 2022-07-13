@@ -20,10 +20,6 @@ const SelectAccess = () => {
 
     return(
         <section className="select-access-container">
-            <div className="flex title-container">
-                <span class="material-icons-outlined">home</span>
-                <h1>Meu controle</h1>
-            </div>
             <Nav />
             <div className="details-login-container">
                 <h1>Como planeja utilizar a plataforma?</h1>

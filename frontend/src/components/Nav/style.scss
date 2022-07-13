@@ -1,82 +1,95 @@
+.title-container{
+    width: 13%;
+
+    white-space: nowrap;
+
+    margin: 4rem auto 4rem !important;
+
+    span, h1{
+        margin: 0 auto
+    }
+
+    span{
+        color: var(--color-primary);
+    }
+
+    h1{
+        font-size: 1.2rem;
+    }
+}
 
 .stepper-wrapper {
     width: 50%;
     margin: 0 auto;
-    margin-bottom: 3rem;
-
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
-}
-  
-.stepper-item {
-    flex: 1;
-    display: flex;
+    margin-bottom: 3rem;
+  }
+  .stepper-item {
     position: relative;
-    align-items: center;
+    display: flex;
     flex-direction: column;
-}
-
-.stepper-item::before {
-    content: "";
+    align-items: center;
+    flex: 1;
+  }
+  
+  .stepper-item::before {
     position: absolute;
-    
+    content: "";
+    border-bottom: 2px solid #f1f1f1;
     width: 100%;
     top: 20px;
     left: -50%;
     z-index: 2;
-    
-    border-bottom: 2px solid #ccc;
-}
-
-.stepper-item::after {
-    content: "";
+  }
+  
+  .stepper-item::after {
     position: absolute;
-
+    content: "";
+    border-bottom: 2px solid #f1f1f1;
     width: 100%;
     top: 20px;
     left: 50%;
     z-index: 2;
-
-    border-bottom: 2px solid #ccc;
-}
-
-.stepper-item .step-counter {
+  }
+  
+  .stepper-item .step-counter {
+    position: relative;
     z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
-
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-
     border-radius: 50%;
-
     background: #f1f1f1;
-}
-
-.stepper-item.active {
+    margin-bottom: 6px;
+  }
+  
+  .stepper-item.active {
     font-weight: bold;
-}
-
-.stepper-item.completed .step-counter {
+  }
+  
+  .stepper-item.completed .step-counter {
     color: var(--color-white);
     background-color: var(--color-primary);
-}
-
-.stepper-item.completed::after {
-    content: "";
+  }
+  
+  .stepper-item.completed::after {
     position: absolute;
-
+    content: "";
+    border-bottom: 2px solid var(--color-primary);
     width: 100%;
-    z-index: 3;
     top: 20px;
     left: 50%;
-
-
-    border-bottom: 2px solid var(--color-primary);
-}
-
-.stepper-item:first-child::before, .stepper-item:last-child::after {
+    z-index: 3;
+  }
+  
+  .stepper-item:first-child::before {
     content: none;
-}
+  }
+  .stepper-item:last-child::after {
+    content: none;
+  }
+  
