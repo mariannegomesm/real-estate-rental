@@ -6,6 +6,7 @@ import SelectAccess from "../pages/SelectAccess";
 import RegisterUser from "../pages/RegisterUser";
 import AddressUser from "../pages/AddressUser";
 import SuccessSigning from "../pages/SuccessSigning";
+import Login from "../pages/Login";
 
 const Routes = () => {
   return (
@@ -15,6 +16,7 @@ const Routes = () => {
             <Route exact path="/register-user" component={RegisterUser} />
             <Route exact path="/address-user" component={AddressUser} />
             <Route exact path="/success-signing" component={SuccessSigning} />
+            <Route exact path="/login" component={Login} />
         </Switch>
     </Router>
   );

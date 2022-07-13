@@ -37,7 +37,7 @@ const SelectAccess = () => {
                     </button>
                 </div>
                 <button className="button-next" onClick={() => SendTo("/register-user")}>Próximo passo</button>
-                <a>Logar na plataforma</a>
+                <a onClick={() => SendTo("/login")}>Logar na plataforma</a>
             </div>
         </section>
     )
