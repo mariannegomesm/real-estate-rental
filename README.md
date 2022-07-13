@@ -1,11 +1,11 @@
 # real-estate-rental
 
-![image](https://user-images.githubusercontent.com/66935004/178844539-22fa228c-1657-44a8-822d-0063f8e40bdc.png)
+![image](https://user-images.githubusercontent.com/66935004/178846557-bc869324-bd55-4f16-a8a7-bed20490ca5b.png)
 
 ![image](https://user-images.githubusercontent.com/66935004/178807196-b224daa1-7993-4d4d-b7bc-237b1c17d173.png)
 
-![image](https://user-images.githubusercontent.com/66935004/178815153-48a0a0df-57d2-400e-913d-1a821eedf51a.png)
+![image](https://user-images.githubusercontent.com/66935004/178846463-441c9bdd-b388-4e93-afc3-cd89053c1564.png)
 
-![image](https://user-images.githubusercontent.com/66935004/178825663-47ce9ec7-3660-4504-9004-e83409953ce9.png)
+![image](https://user-images.githubusercontent.com/66935004/178846488-b68429fd-c8cd-4b78-902e-d1503dd066af.png)
 
 ![image](https://user-images.githubusercontent.com/66935004/178827610-b0f25f57-7d12-458e-8098-84988cef2ff1.png)
