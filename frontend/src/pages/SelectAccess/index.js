@@ -4,7 +4,7 @@ import "./style.scss";
 
 import Nav from "../../components/Nav";
 
-const Register = () => {
+const SelectAccess = () => {
     const buttonActive = useRef(false);
 
     const nextSteps = [
@@ -19,7 +19,7 @@ const Register = () => {
     }, []);
 
     return(
-        <section className="register-container">
+        <section className="select-access-container">
             <div className="flex title-container">
                 <span class="material-icons-outlined">home</span>
                 <h1>Meu controle</h1>
@@ -47,4 +47,4 @@ const Register = () => {
     )
 }
 
-export default Register;
+export default SelectAccess;
