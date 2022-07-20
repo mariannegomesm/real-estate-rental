@@ -2,12 +2,7 @@
 
 #### Interface:
 
-![image](https://user-images.githubusercontent.com/66935004/178846557-bc869324-bd55-4f16-a8a7-bed20490ca5b.png)
-
-![image](https://user-images.githubusercontent.com/66935004/178807196-b224daa1-7993-4d4d-b7bc-237b1c17d173.png)
-
-![image](https://user-images.githubusercontent.com/66935004/178846463-441c9bdd-b388-4e93-afc3-cd89053c1564.png)
-
-![image](https://user-images.githubusercontent.com/66935004/178846488-b68429fd-c8cd-4b78-902e-d1503dd066af.png)
-
-![image](https://user-images.githubusercontent.com/66935004/178827610-b0f25f57-7d12-458e-8098-84988cef2ff1.png)
+![image](https://user-images.githubusercontent.com/66935004/180047025-dbe1cb5a-e363-4912-bed3-7044bc61829d.png)
+![image](https://user-images.githubusercontent.com/66935004/180047464-25e63024-a870-46e9-92ab-05abd822a549.png)
+![image](https://user-images.githubusercontent.com/66935004/180047538-219b56a4-61b0-426a-a44e-18cf5e1584aa.png)
+![image](https://user-images.githubusercontent.com/66935004/180047741-10f134e5-1b20-4e9c-a0df-11abb72671a6.png)
