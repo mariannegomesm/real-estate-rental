@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "company": false,
+      "name": "i",
+      "email": "i",
+      "password": "i",
+      "photo": "i",
+      "address": "-",
+      "city": "-",
+      "state": "-",
+      "cep": "-",
+      "id": 1
+    }
+  ]
+}
