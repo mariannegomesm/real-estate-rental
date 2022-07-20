@@ -52,7 +52,7 @@ const RegisterUser = () => {
                         <input placeholder="Insira uma senha forte" onChange={(e) => setUser({...user, password: e.target.value})}/>
                     </div>
                 </div>
-                <div>
+                <div className="image-container">
                     <label>* Imagem:</label>
                     <input placeholder="Insira o link de sua foto preferida" onChange={(e) => setUser({...user, photo: e.target.value})}/>
                 </div>
