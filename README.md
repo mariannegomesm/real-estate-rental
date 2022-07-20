@@ -1,5 +1,17 @@
 # real-estate-rental
 
+#### Tecnologias:
+React, SASS , Redux <br />
+
+#### Instalação:
+> cd backend <br />
+> npm install <br />
+> npm run start <br />
+
+> cd ../frontend <br />
+> npm install <br />
+> npm start <br />
+
 #### Interface:
 
 ![image](https://user-images.githubusercontent.com/66935004/180047025-dbe1cb5a-e363-4912-bed3-7044bc61829d.png)
