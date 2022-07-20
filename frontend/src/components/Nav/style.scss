@@ -1,15 +1,16 @@
 .title-container{
-    width: 13%;
-
+    width: 15%;
     white-space: nowrap;
 
-    margin: 4rem auto 3rem !important;
+    margin: 3rem auto 2.5rem !important;
 
     span, h1{
         margin: 0 auto
     }
 
     span{
+        margin-right: 0.5rem;
+        
         color: var(--color-primary);
     }
 
@@ -19,14 +20,12 @@
 }
 
 .stepper-wrapper {
-    width: 50%;
+    width: 85%;
 
     display: flex;
     justify-content: space-between;
     
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 3rem;
+    margin: 0 auto 2rem !important;
   }
   .stepper-item {
     flex: 1;

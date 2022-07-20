@@ -16,13 +16,29 @@ body, input, button{
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    background-color: #f7f7f752;
+}
+
 .flex{
     display: flex;
     align-items: center;
 }
 
+.select-access-container, .register-container, .address-container, .success-container{
+    width: 65%;
+    height: 88vh;
+    overflow: hidden;
+
+    margin: 2.5rem auto 0;
+    border-radius: 1rem;
+
+    background-color: var(--color-white);
+    box-shadow: 1px 1px 4px #d5d5d5;
+}
+
 form{
-    width: 45%;
+    width: 70%;
     margin: 0 auto;
 
     font-size: 0.9rem;
@@ -59,5 +75,20 @@ form{
     
         color: var(--color-white);
         background-color: var(--color-primary);
+    }
+}
+
+.form-group{
+    display: flex !important;
+    flex-direction: row;
+
+    margin: 0;
+
+    div{
+        width: 50%;
+    }
+
+    div:first-child{
+        margin-right: 0.5rem;
     }
 }

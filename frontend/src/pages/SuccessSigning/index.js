@@ -17,7 +17,7 @@ const SuccessSigning = () => {
     return(
         <section className="success-container">
             <Nav />
-            <LottieFile name="success" width={400}/>
+            <LottieFile name="success" width={400} height={220}/>
             <div className="details-success">
                 <h1>Sucesso ao cadastrar informações!</h1>
                 <p>Para prosseguir, logue-se na plataforma</p>

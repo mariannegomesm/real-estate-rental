@@ -42,13 +42,15 @@ const RegisterUser = () => {
                     <label>* Nome:</label>
                     <input placeholder="Insira seu nome completo" onChange={(e) => setUser({...user, name: e.target.value})}/>
                 </div>
-                <div>
-                    <label>* Email:</label>
-                    <input placeholder="Insira seu melhor email" onChange={(e) => setUser({...user, email: e.target.value})}/>
-                </div>
-                <div>
-                    <label>* Senha:</label>
-                    <input placeholder="Insira uma senha forte" onChange={(e) => setUser({...user, password: e.target.value})}/>
+                <div className="form-group">
+                    <div>
+                        <label>* Email:</label>
+                        <input placeholder="Insira seu melhor email" onChange={(e) => setUser({...user, email: e.target.value})}/>
+                    </div>
+                    <div>
+                        <label>* Senha:</label>
+                        <input placeholder="Insira uma senha forte" onChange={(e) => setUser({...user, password: e.target.value})}/>
+                    </div>
                 </div>
                 <div>
                     <label>* Imagem:</label>
